@@ -627,6 +627,7 @@ progress {
   background: #383A47;
   padding: 7px 0;
   height: auto;
+  z-index: 999;
 }
 
 .header.fixed .header__logo {
@@ -997,7 +998,7 @@ progress {
 
 .agent {
   padding: 58px 0 75px 0;
-  background: url("../../img/agent-bg.png") center center/cover no-repeat;
+  background: url("../img/agent-bg.png") center center/cover no-repeat;
 }
 
 .agent__content {
